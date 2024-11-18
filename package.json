@@ -2,5 +2,9 @@
   "dependencies": {
     "@dotenvx/dotenvx": "^1.23.0",
     "dotenv-cli": "^7.4.2"
+  },
+  "scripts": {
+    "ok": "dotenv -e .env.testing -- node index.js",
+    "ok-x": "dotenvx run -f .env.testing -- node index.js"
   }
 }

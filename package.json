@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.23.0",
+    "dotenv-cli": "^7.4.2"
+  }
+}
